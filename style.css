@@ -1,0 +1,32 @@
+body {
+  background: #c5c5c5;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  align-items: center;
+}
+
+button {
+  border: none;
+  padding: 15px 20px;
+  border-radius: 6px;
+}
+
+textarea {
+  border-radius: 10px;
+  border: none;
+  padding: 1rem;
+  overflow-y: scroll;
+}
+
+textarea:focus {
+  outline: none;
+}
