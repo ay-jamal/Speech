@@ -25,6 +25,7 @@ textarea {
   border: none;
   padding: 1rem;
   overflow-y: scroll;
+  max-width: 80%;
 }
 
 textarea:focus {
